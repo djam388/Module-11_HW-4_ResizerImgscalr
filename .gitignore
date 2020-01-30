@@ -1,0 +1,6 @@
+*.iml
+.idea/*
+src/main/Data/DST/*
+src/main/Data/SRC/*
+!src/main/Data/DST/.gitkeep
+!src/main/Data/SRC/.gitkeep
