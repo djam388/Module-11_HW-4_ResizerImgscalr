@@ -48,8 +48,8 @@ public class Main
     {
         File[] filesToCopy = new File[length];
         System.arraycopy(files, position, filesToCopy, 0, filesToCopy.length);
-        //ImageResizer imageResizer = new ImageResizer(filesToCopy, 300, dstFolder, start, threadNumber);
-        ImageResizer imageResizer = new ImageResizer(filesToCopy, dstFolder, start, threadNumber);
+        ImageResizer imageResizer = new ImageResizer(filesToCopy, 300, dstFolder, start, threadNumber);
+        //ImageResizer imageResizer = new ImageResizer(filesToCopy, dstFolder, start, threadNumber);
         imageResizer.start();
     }
 }
